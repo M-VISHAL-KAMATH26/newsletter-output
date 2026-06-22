@@ -1,34 +1,67 @@
 
-**NodeWeekly • ReactStatus • TLDR-AI — Weekly Digest**
-
-Another week, another wave of developer innovation. Let's dive into what mattered this week.
-
----
-
-### 🟢 Node.js Weekly
-
-1. **Nub** introduces a new toolkit that enhances Node.js with better TypeScript support, faster package management, and improved .env handling — without replacing it. ([nubjs.com](https://nubjs.com/blog/introducing-nub))
-2. **Free Claude Code Course** from Frontend Masters featuring Lydia Hallie is now open to everyone — master directing AI while coding. ([frontendmasters.com](https://frontendmasters.com/courses/claude-code/?utm_source=email&utm_medium=nodeweekly&utm_content=claudecooper))
-3. **Node.js 26.3.1, 24.17.0, and 22.23.0** released with critical security fixes, including high-severity issues in TLS and WebCrypto. ([nodejs.org](https://nodejs.org/en/blog/release/v26.3.1))
-4. **Neon's pure-TypeScript Postgres client** proves you can build psql-like functionality without native binaries using AI and conformance testing. ([neon.com](https://neon.com/blog/shipping-psql-without-psql))
-5. **A LinkedIn job scam** used a fake recruiter and compromised repo to inject a backdoor — a cautionary tale about supply chain attacks. ([roman.pt](https://roman.pt/posts/linkedin-backdoor/))
+**NodeWeekly • ReactStatus • TLDR-AI**  
+*Your weekly dose of dev-relevant updates*
 
 ---
 
-### ⚛️ React Status
+## 🟢 Node.js Weekly
 
-1. **React Router v8** ships as an intentionally "boring" release — stable, proven, and perfect when you need reliability over flashiness. ([remix.run](https://remix.run/blog/react-router-v8))
-2. **Redux experimentation with signals** explores performance gains by only re-running selectors when state actually changes. ([github.com](https://github.com/reduxjs/react-redux/pull/2318))
-3. **Wasp framework** now uses TypeScript for its full-stack spec layer — think TypeScript as your infrastructure definition language. ([wasp.sh](https://wasp.sh/blog/2026/06/15/wasp-typescript-spec))
-4. **Real-time dashboards** don't need polling — Tiger Data shows how to keep Postgres queries fresh without complex pipelines. ([tigerdata.com](https://www.tigerdata.com/go/trial?utm_source=content-syndication&utm_medium=referral&utm_campaign=react-status-newsletter))
-5. **VS Code extension** prioritizes React props in autocomplete — because component-specific props should come first. ([marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=yurii.react-props-first))
+**Nub: An All-in-One Toolkit That Augments Node**  
+Extends Node with better TypeScript support, faster package installs, and improved .env handling from the creator of Zod.  
+[https://nubjs.com/blog/introducing-nub](https://nubjs.com/blog/introducing-nub)
+
+**Node.js 26.3.1, 24.17.0, and 22.23.0 Released**  
+Critical security updates fixing 11 vulnerabilities, including high-severity issues in TLS and WebCrypto.  
+[https://nodejs.org/en/blog/release/v26.3.1](https://nodejs.org/en/blog/release/v26.3.1)
+
+**Shipping psql Without psql: A Pure-TypeScript Postgres Client**  
+Neon built a full psql-like CLI experience in Node without native binaries using AI and strict conformance testing.  
+[https://neon.com/blog/shipping-psql-without-psql](https://neon.com/blog/shipping-psql-without-psql)
+
+**A Backdoor in a LinkedIn Job Offer**  
+Developer gets scammed when a fake recruiter asks them to debug a Node project containing malicious dependencies.  
+[https://roman.pt/posts/linkedin-backdoor/](https://roman.pt/posts/linkedin-backdoor/)
+
+**eslint-plugin-unicorn 67.0: 200+ Powerful Linting Rules**  
+Sindre Sorhus's legendary linting plugin hits 67.0 with new rules for modern JS/TS best practices.  
+[https://github.com/sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
 ---
 
-### 🤖 AI Weekly
+## ⚛️ React Status
 
-This week brought AI news faster than we can summarize: GPT-5.6 rumors, Claude artifacts, Google's AI mode, and more acquisitions. The pace is relentless — we're tracking it all. ([tldr.tech](https://tldr.tech/))
+**React Router v8: An Intentionally 'Boring' Release**  
+The veteran routing solution ships with refinements and marks the end of React Router 6 support.  
+[https://remix.run/blog/react-router-v8](https://remix.run/blog/react-router-v8)
+
+**Can Signals Make React Redux Faster at Scale?**  
+Experimental PR explores signal-based providers that only re-render when relevant state changes.  
+[https://github.com/reduxjs/react-redux/pull/2318](https://github.com/reduxjs/react-redux/pull/2318)
+
+**Wasp Now Lets You Write Your Full-Stack Logic as a TypeScript Spec**  
+The full-stack framework replaces its DSL with TS, compiling specs into complete React/Node/Prisma apps.  
+[https://wasp.sh/blog/2026/06/15/wasp-typescript-spec](https://wasp.sh/blog/2026/06/15/wasp-typescript-spec)
+
+**Base UI 1.6: Unstyled UI Components for React**  
+Radix creator's new component library adds OTP input and refreshed docs for fully customizable UIs.  
+[https://base-ui.com/](https://base-ui.com/)
+
+**React Doctor as a GitHub Action for Automatic Reviews**  
+Get automated code quality scores (out of 100) and issue reports directly in your PRs.  
+[https://www.react.doctor/docs/ci-and-prs/github-actions-setup](https://www.react.doctor/docs/ci-and-prs/github-actions-setup)
 
 ---
 
-Stay sharp, stay curious. See you next week!
+## 🤖 AI/ML Briefs
+
+• **GPT-5.6 Tuesday** — Model releases keep coming fast  
+• **Claude Code artifacts** — Build full apps as conversation outputs  
+• **Perplexity Brain memory** — Persistent AI memory across sessions  
+• **Gemini 3.5 Live Translate** — Real-time multilingual coding assistance  
+• **OpenAI S-1 benchmark** — New evaluation for reasoning capabilities  
+
+*Full roundup: [https://tldr.tech/ai](https://tldr.tech/ai)*
+
+---
+
+**Happy shipping, folks! May your PRs be green and your AI assistants be helpful.** 🚀
